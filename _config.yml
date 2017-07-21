@@ -1,0 +1,19 @@
+# Setup
+title:               UniKre
+tagline:             Technology changes the world...
+baseurl:             ''
+paginate:            5
+permalink:           "/blog/:slug"
+paginate_path:       "/blog/page:num"
+
+# About
+author:
+  name:              UniKre
+  url:               https://unikre.com
+  email:             unikremobile@gmail.com
+
+exclude: ['Gemfile.lock', 'Gemfile']
+
+sass:
+  style: compressed
+  sass_dir: _sass
